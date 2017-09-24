@@ -1,0 +1,14 @@
+net: "train.prototxt"
+display: 100
+base_lr:  1e-6
+lr_policy: "step"
+gamma: 0.1
+stepsize: 500000
+max_iter: 2000000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+average_loss: 2700
+snapshot_prefix: "snapshot_aug/mscnn_partA"
+solver_mode: GPU
+debug_info: false
